@@ -26,6 +26,7 @@
         <developerConnection>scm:git:https://github.com/surendhiran2510/Java_app_3.0</developerConnection>
         <url>https://github.com/surendhiran2510/Java_app_3.0</url>
         <tag>@{project.version}</tag>
+        <tag>main</tag>
     </scm>
 
     <distributionManagement>
