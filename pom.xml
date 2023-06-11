@@ -28,6 +28,19 @@
         <tag>@{project.version}</tag>
     </scm>
 
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>35ced3af2ea5-releases</name>
+        <url>http://3.89.111.184:8081/artifactory/batch</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>35ced3af2ea5-snapshots</name>
+        <url>http://3.89.111.184:8081/artifactory/batch</url>
+    </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
